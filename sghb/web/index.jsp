@@ -4,17 +4,11 @@
     Author     : User
 --%>
 
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
-    </head>
-    <body>
-        <h1>Hello World!</h1>
-    </body>
-</html>
-
-<%-- Esta pÃ¡gina nÃ£o mostra nada, sÃ³ manda o utilizador logo para a pÃ¡gina de login. --%>
+<%--
+  Ficheiro: index.jsp
+  Propósito: Página inicial da aplicação.
+  Ação: Redireciona automaticamente o utilizador para a página de login.
+  Isto é feito para que a primeira coisa que o utilizador veja seja o ecrã para entrar no sistema.
+--%>
 <jsp:forward page="/jsp/publico/login.jsp" />
+
